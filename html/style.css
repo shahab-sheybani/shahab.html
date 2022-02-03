@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'koodak';
+    src: url('KoodakBold.eot#?')format('eot'), src: url('koodakBold.ttf')format('truetype'), src: url('koodakBold.woff')format('woff');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'nazanin';
+    src: url('Nazanin.eot#?')format('eot'), src: url('Nazanin.ttf')format('truetype'), src: url('Nazanin.woff')format('woff');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('Yekan.eot#?')format('eot'), src: url('Yekan.ttf')format('truetype'), src: url('Yekan.woff')format('woff'), src: url('Yekan.woff2')format('woff2');
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'yekan';
+    
+}
+#text{
+    margin-top: ;
+}
+#listicon{
+    background-color: #dee2e6;
+}
+.none{
+    border: none;
+}
+.f-s{
+    font-size: 50px;
+}
+.color{
+    background-color: #dee2e6;
+
+}
+.c-r{
+    color: rgb(91, 91, 223);
+}
+.c-w{color: darkgreen;
+}
+.c-d{color: deepskyblue;
+}
+.c-dd{color: darkgreen;
+}
+.i{
+    font-size:60px;
+}
+.i-r{
+    padding-right: 15px;
+}
+.a-c{
+    color: #78263Eff;
+}
+.hr{
+    border-width: 2px;
+     border-color: black;
+}
+p{
+    font-size: 24px;
+}
+#picture{
+    float: left;
+    width: 70%;
+    padding-top: 50px;
+    display: block
+}
+h1{
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px){
+
+#picture{
+    display: none;
+}
+
+}
